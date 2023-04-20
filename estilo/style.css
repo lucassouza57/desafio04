@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'font01', cursive;
+    src: url('../fonte/Delicious_Handrawn/DeliciousHandrawn-Regular.ttf') format('truetype');
+}
+
+
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+header {
+    background-color: black;
+    background-image: url('../imagens/img06.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: -15px;
+    font-size: 5vw;
+}
+
+header h1 {
+    font-family: 'font01',cursive;
+} 
+
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding-left: 15px;
+}
+
+section {
+    font-family: 'font01',cursive;
+    font-size: 3.5vw;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.imagem {
+    background-color: rgb(231, 225, 225);
+}
+
+section.imagem > p {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.534);
+    color: rgb(252, 252, 252);
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(255, 254, 254, 0.384);
+}
+
+#img01 {
+    background-image: url('../imagens/imagem01.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.596);
+}
+
+#img02 {
+    background-image: url('../imagens/imagem02.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.596);
+}
+
+footer {
+   background-color: black; 
+   color: rgb(255, 255, 255);
+   text-align: center;
+   padding: 5px;
+   margin: auto -15px -15px -15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
